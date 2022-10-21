@@ -1,0 +1,117 @@
+@media (max-width:1000px) {
+    .container_anderfooter .div_grid {
+        grid-template-columns: 1fr;
+        height: 845px;
+        justify-items: center;
+    }
+}
+
+@media (max-width:835px) {
+    .container__main {
+        max-width: 700px;
+    }
+}
+
+@media (max-width:750px) {
+    .container__main {
+        max-width: 600px;
+    }
+}
+
+@media (max-width:650px) {
+    .container__main {
+        max-width: 500px;
+    }
+}
+
+@media (max-width:550px) {
+    .container__main {
+        max-width: 400px;
+    }
+
+    .container__main .block1 .text_inside {
+        left: 10px;
+        padding-right: 90px;
+    }
+
+    .container__main .block1 .profile {
+        left: 68px;
+        top: 10px;
+    }
+
+    .container__main .block1 {
+        height: 200px;
+    }
+
+    .container__main .block2 .text_inside {
+        left: 10px;
+        padding-right: 90px;
+    }
+
+    .container__main .block2 .profile {
+        left: 68px;
+        top: 10px;
+    }
+
+    .container__main .block2 {
+        height: 200px;
+    }
+
+    .container__main .block3 .text_inside {
+        left: 10px;
+        padding-right: 90px;
+    }
+
+    .container__main .block3 .profile {
+        left: 68px;
+        top: 10px;
+    }
+
+    .container__main .block3 {
+        height: 200px;
+    }
+
+    .container_anderfooter .div_grid {
+        padding-top: 170px;
+    }
+
+    .container_anderfooter .div_grid .grid_el1 .div_grid_text1 {
+        bottom: -14px;
+    }
+
+    .container_anderfooter .div_grid .grid_el2 .div_grid_text2 {
+        bottom: -14px;
+    }
+
+    .container_anderfooter .div_grid .grid_el3 .div_grid_text3 {
+        bottom: -14px;
+    }
+
+    .container_anderfooter .div_grid .grid_el1 .block1_grid {
+        left: 60px;
+        bottom: 40px;
+    }
+
+    .container_anderfooter .div_grid .grid_el2 .block2_grid {
+        left: 60px;
+        bottom: 40px;
+    }
+
+    .container_anderfooter .div_grid .grid_el3 .block3_grid {
+        left: 60px;
+        bottom: 40px;
+    }
+
+    .container_anderfooter .block_anderfooter_finish .div_more_anderfooter_finish {
+        height: 50px;
+    }
+}
+
+@media (max-width:550px) {
+    .container_anderfooter .block_anderfooter .text_more_anderfooter {
+        color: white;
+    }
+    .container_anderfooter .block_anderfooter .div_more_anderfooter {
+    color: white;
+    }
+}

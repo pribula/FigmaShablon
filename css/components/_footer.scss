@@ -1,0 +1,37 @@
+.div_footer{
+    height: 166px;
+    background-color: #000000;
+    .footerText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        .row1{
+            display: flex;
+            &:first-child{
+                padding-left: 4px;
+                margin-top: 55px;
+                color: #8B8B8B;
+                p{
+                    text-align: center;
+                }
+            }
+        }
+        .row2{
+            display: flex;
+            &:first-child {
+                    color: #8B8B8B;
+                    padding-left: 4px;
+                    align-content: center;
+                    p{
+                        text-align: center;
+                    }
+                }
+            
+                &:last-child {
+                    margin-top: 18px;
+                    color: #8B8B8B;
+                }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    max-width: 1440px;
+    overflow: hidden;
+    flex-direction: column;
+    background: url(/figma/img/Bg1.png) no-repeat;
+    margin: 0px auto;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.header{
+    .header__row{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .header__img {
+            display: flex;
+            margin-top: 60px;
+            background: url(/figma/img/logo.png);
+            width: 176px;
+            height: 40px;
+        }
+
+        .header__nav{
+        }
+
+        .list{
+            margin-top: 52px;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 14px;
+            font-size: 11px;
+            line-height: 14px;
+            letter-spacing: 1.3px;
+            text-transform: uppercase;
+            a{
+                color: #FFFFFF;
+                font-family: 'Montserrat', sans-serif;
+                &:hover{
+                    padding-bottom: 10px;
+                    border-bottom: 3px solid rgba(255, 255, 255, 0.3);;
+                }
+            }
+        }
+
+    }
+}
+
